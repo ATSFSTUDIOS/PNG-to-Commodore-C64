@@ -58,7 +58,7 @@ python -m pip install --upgrade pip
 python -m pip install --upgrade c64img
 python -m pip install --upgrade OpenImageIO
 ```
-**Note:** Your copy of the Python command-line executable might be named either "python" or "python3". If the executable name is differently, simply update the example code above to account for the naming variations.
+**Note:** Your copy of the Python command-line executable might be named either "python" or "python3". If the executable name is different than expected, simply update the provided code snippets to account for the naming variations.
 
 ![pip update](docs/images/pip-update.png)
 
