@@ -4,25 +4,34 @@
 
 A collection of drag-and-drop utilities for Windows 10/11, that help artists prepare imagery for display on retro 8-bit Commodore C64 computers.
 
+![BAT Scripts](docs/images/bat-scripts.png)
+
 This script uses a pair of "drag and drop" .bat scripts to export a PNG image into a Commodore C64 Koala .koa image format, or a Commodore C64 .prg program format. The following custom scripts are located in the "bat" folder in this repo:
 
 - Export PNG Image to C64 Koala.bat
 - Export PNG Image to C64 PRG.bat
 
-
 ## Script Usage 
 
 To use these scripts, you first need to install Python and add the OpenImageIO oiiotool, and c64img Python module dependencies to your computer. This step is mentioned in a condensed short form format, in the "PyPy Installation" section further down this page.
 
-Once the supporting tools are installed, you simply place the included .bat scripts from this GitHub repo, where you want them to exist. Maybe even on your desktop folder, or somewhere else with a shortcut link.
+Once the supporting tools are installed, you simply download the included .bat scripts from this GitHub repo. Copy the .bat files where you want them to exist on your hard disk. Maybe even on your desktop folder, or somewhere else with a shortcut link.
 
 The scripts are run by dragging a 320x200px sized .png image onto the .bat script you wish to run. The script then runs and converts the media. The script will automatically name the converted image result to match the "base name" of the source media, with the newly created output image adding the correct file extension for .koa (Koala), or .prg (C64 Assembly Program).
 
-You can check a Koala image using the following online browser based image viewer:  
+## Image Sample
+
+A sample image is provided with this toolset named:
+
+- samples/c64.png
+
+![Image Sample](docs/images/c64-sample.png)
+
+After you run the conversion process, you can check a Koala image using the following online browser based image viewer:  
 
 https://viewer.online/koa
 
-You can check a Commodore C64 .prg program using the following online browser based Commodore 64 Vice Emulator:  
+You can check a Commodore C64 .prg program file using the following online browser based Commodore 64 Vice Emulator:  
 
 https://c64.sannic.nl/
 
@@ -40,16 +49,26 @@ https://www.homecomputermuseum.nl/en/collectie/koala-technologies/koalapad/
 
 # PyPy Installation
 
+The scripts assume you have installed Python to "C:\Python\". You can update the filepath in the .bat files if Python is installed elsewhere.
+
 The c64img Python Module and the OpenImageIO oiiotool library are required to make this toolset work. These libraries can be installed using the Python "pip" based package manager from the Widows command prompt with:
 
 ```bash
-python -m pip install --upgrade image2c64
+python -m pip install --upgrade pip
+python -m pip install --upgrade c64img
 python -m pip install --upgrade OpenImageIO
 ```
+**Note:** Your copy of the Python command-line executable might be named either "python" or "python3". If the executable name is differently, simply update the example code above to account for the naming variations.
 
-**Note:** Your copy of the Python command-line executable might be named either "python" or "python3". If the executable name is different, simply update the example code above to account for the naming variations.
+![pip update](docs/images/pip-update.png)
 
-# image2c64 Help Info:
+![pip c64img](docs/images/pip-update-c64img.png)
+
+![pip oiio](docs/images/pip-update-oiio.png)
+
+## image2c64 Help Info:
+
+![image2c64](docs/images/image2c64.png)
 
 ```bash
 image2c64 --help
@@ -86,7 +105,9 @@ options:
   -V, --version         show program's version number and exit
 ```
 
-# OpenImaegIO oiiotool CLI Help:
+## OpenImaegIO oiiotool CLI Help:
+
+![oiiotool](docs/images/oiiotool.png)
 
 ```bash
 oiiotool
