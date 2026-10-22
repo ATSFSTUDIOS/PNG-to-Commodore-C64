@@ -25,6 +25,10 @@ Koala Painter Docs:
 
 http://justsolve.archiveteam.org/wiki/KoalaPainter  
 
+Historically the Koala Painter software was bundled with a 1980s era KoalaPad graphics tablet. You can read more about the KoalaPad hardware below. For our purposes in retro game development, the Koala .koa image file format is acting as a low level bare-bones image data interchange standard... so this is the aspect that we care about the most in 2026. We aren't specifically requiring the use of the vintage graphics tablet for our art design tasks.
+
+https://www.homecomputermuseum.nl/en/collectie/koala-technologies/koalapad/
+
 # PyPy Installation
 
 The c64img Python Module and the OpenImageIO oiiotool library are required to make this toolset work. These libraries can be installed using the Python "pip" based package manager from the Widows command prompt with:
