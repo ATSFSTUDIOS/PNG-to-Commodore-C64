@@ -16,7 +16,7 @@ To use these scripts, you first need to install Python and add the OpenImageIO o
 
 Once the supporting tools are installed, you simply place the included .bat scripts from this GitHub repo, where you want them to exist. Maybe even on your desktop folder, or somewhere else with a shortcut link.
 
-The scripts are run by dragging a 320x200px sized .pmg image onto the .bat script you wish to run. The script then runs and converts the media. The script will automatically name the converted image result to match the "base name" of the source media, with the newly created output image adding the correct file extension for .koa (Koala), or .prg (C64 Assembly Program).
+The scripts are run by dragging a 320x200px sized .png image onto the .bat script you wish to run. The script then runs and converts the media. The script will automatically name the converted image result to match the "base name" of the source media, with the newly created output image adding the correct file extension for .koa (Koala), or .prg (C64 Assembly Program).
 
 You can check a Koala image using the following online browser based image viewer:  
 
