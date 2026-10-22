@@ -2,7 +2,7 @@
 
 ## Overview
 
-A collection of drag-and-drop utilities to help prepare imagery for display on retro 8-bit Commodore C64 computers.
+A collection of drag-and-drop utilities for Windows 10/11, that help artists prepare imagery for display on retro 8-bit Commodore C64 computers.
 
 This script uses a pair of "drag and drop" .bat scripts to export a PNG image into a Commodore C64 Koala .koa image format, or a .prg program format.
 
