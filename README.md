@@ -27,12 +27,14 @@ http://justsolve.archiveteam.org/wiki/KoalaPainter
 
 # PyPy Installation
 
-The c64img Python Module and the OpenImageIO oiiotool library are required to make this toolset work. Thee libraries can be installed using the Python "pip" based package manager from the Widows command prompt with:
+The c64img Python Module and the OpenImageIO oiiotool library are required to make this toolset work. These libraries can be installed using the Python "pip" based package manager from the Widows command prompt with:
 
 ```bash
 python -m pip install --upgrade image2c64
 python -m pip install --upgrade OpenImageIO
 ```
+
+**Note:** Your copy of the Python command-line executable might be named either "python" or "python3". If the executable name is different, simply update the example code above to account for the naming variations.
 
 # image2c64 Help Info:
 
